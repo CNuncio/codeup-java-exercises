@@ -73,7 +73,7 @@ public class ControlFlowExercises {
 
 Scanner scanner = new Scanner(System.in);
 
-        System.out.print("What no. would you like to go up to? ");
+        System.out.print("What number would you like to go up to? ");
 int userInput = scanner.nextInt();
         System.out.println(" ");
         System.out.println("Here is your table: ");
