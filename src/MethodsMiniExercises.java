@@ -22,3 +22,4 @@ public class MethodsMiniExercises {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter an input.");
     }
+}

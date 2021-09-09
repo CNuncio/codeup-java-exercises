@@ -3,7 +3,7 @@ public class MyTherapist {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String tarotCard = scanner.nextln();
+        String tarotCard = scanner.next();
         do {
             System.out.println("Choose your card. ");
 
