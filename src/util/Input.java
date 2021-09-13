@@ -1,9 +1,9 @@
-//package util;
+package util;
 //
-//import java.util.Scanner;
-//
-//public class Input {
-//    private Scanner scanner;
+import java.util.Scanner;
+
+public class Input {
+    private Scanner scanner;
 //
 //    public String getString() {
 //        System.out.println("Please enter a string: ");
@@ -28,11 +28,22 @@
 //        while (userInput <= max || userInput >= max) {
 //            System.out.println(prompt);
 //           userInput =  scanner.nextInt();
-//        }
+////        }
 //        return userInput;
 //
 //    public Input() {
 //            this.scanner = new Scanner(System.in);
 //        }
 //    }
+
+    public double getDouble() {
+        System.out.println("Enter a number");
+        double userInput = scanner.nextDouble();
+        return userInput;
+    }
+
+    public Input() {
+        this.scanner = new Scanner(System.in);
+    }
+}
 //}
