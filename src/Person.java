@@ -1,6 +1,14 @@
 //
-//public class person {
-//    private String name;
+//public class Person {
+//
+//    public Person(String name) {
+//        this.name = name;
+//
+//    }
+//
+//    public String getName() {
+//        return name;
+//    }
 //    public static void main(String[] args) {
 //
 //    }
@@ -26,3 +34,5 @@
 //
 //        Create a `main` method on the class that creates a new `Person` object and
 //        tests the above methods.
+//    }
+//}
