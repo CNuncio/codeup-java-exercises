@@ -18,7 +18,30 @@ public class Bird {
         System.out.println("Flippity flappaty");
     }
 
-    public Bird() {
+    public Bird(String name) {
 
     }
 }
+
+
+//    private String name;
+//
+//    public String getName() {
+//        return name;
+//    }
+//
+//    public void setName(String name) {
+//        this.name = name;
+//    }
+//
+//    public void makeNoise(){
+//        System.out.println("Tweet tweet");
+//    }
+//
+//    public void move(){
+//        System.out.println("Flap flap");
+//    }
+//
+//    public Bird(){
+//
+//    }

@@ -21,3 +21,5 @@ public class vehicle {
     // Create a method in the subclass of the Vehicle class that overrides the superclass makeNoise method.
 
    // Create a breakingDownNoise() method in the subclass. It should call super.makeNoise() and then add a second sout that adds a second noise after the first one.
+
+//Create a name-setter in your vehicle subclass. In your vehicle test, instantiate a specific vehicle and set its name. Sout out the name and verify that you do not get a stack overflow.
