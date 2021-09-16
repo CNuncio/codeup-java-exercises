@@ -2,7 +2,7 @@ package shapes;
 
 public class Square extends Rectangle {
 
-    protected double side;
+    private double side;
 
     public Square (double side){
 super(side, side);
