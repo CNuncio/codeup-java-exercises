@@ -1,10 +1,10 @@
-package Transformer;
-
-public class UpperCaseStringTransformer extends StringTransformer {
-
-    protected  String str = new String();
-
-}
+//package Transformer;
+//
+//public class UpperCaseStringTransformer extends StringTransformer {
+//
+//    protected  String str = new String();
+//
+//}
 
 
 //  Create an abstract class, StringTransformer:
