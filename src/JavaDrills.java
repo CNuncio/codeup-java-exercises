@@ -1,17 +1,19 @@
+import java.util.ArrayList;
+
 public class JavaDrills {
-
-    public static String flipOuterCase(String input) {
-
-        for (int i = 0, i <chars.length;
-        i++){
-
-        }
-    }
-
-    public static void main(String[] args) {
-
-    }
-}
+//
+//    public static String flipOuterCase(String input) {
+//
+//        for (int i = 0, i <chars.length;
+//        i++){
+//
+//        }
+//    }
+//
+//    public static void main(String[] args) {
+//
+//    }
+//}
 //work in progress
 
 
@@ -23,3 +25,29 @@ public class JavaDrills {
 //        System.out.println(flipOuterCase(“CaT”)); // cat
 //        System.out.println(flipOuterCase(“caT”)); // Cat
 //        System.out.println(flipOuterCase(“cAt”)); // CAT
+
+
+public static int returnTotalDifference(){
+    ArrayList<Double> n = new ArrayList<Double>();
+    ArrayList<Double> b = new ArrayList<Double>();
+    double sumN = 0;
+    double sumB = 0;
+    for(int i = 0; i < n.size(); i++) {
+        sumN += n.get(i);
+    }
+    return (int) sumN;
+    }
+//      for(int i = 0; i < b.size(); i++) {
+//
+//        sumB += b.get(i);
+//    }
+//    return (int) sumB;
+}
+
+//from: https://stackoverflow.com/questions/16242733/sum-all-the-elements-java-arraylist
+
+//work in progress
+//Create a static method, returnTotalDifference, that takes in two lists of integers and returns the difference between the sum of all integers in the first list minus the sum of all integers in the second list.
+//        returnTotalDifference(Arrays.asList(10, 2, 3), Arrays.asList(1, 2, 3)); // returns 9
+//        returnTotalDifference(Arrays.asList(10, 1), Arrays.asList(1, 7)); // returns 3
+//        returnTotalDifference(Arrays.asList(10, 1), Arrays.asList(1, 7, 1)); // returns 2
