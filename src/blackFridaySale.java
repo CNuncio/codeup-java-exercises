@@ -3,8 +3,8 @@ import java.util.ArrayList;
 public class blackFridaySale {
     private static ArrayList<Device> Device;
     public class static <Device> ArrayList<Device> blackFriday(ArrayList<Device> obj) {
-        boolean brand;
-        if(brand == "Apple") {
+        String brand;
+        if(brand = "Apple") {
 
             return (Device * .05);
         }
