@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
 public class blackFridaySale {
-    private static ArrayList<Device> Device;
-    public class static <Device> ArrayList<Device> blackFriday(ArrayList<Device> obj) {
+    private static <Device>ArrayList<Device> Device;
+    public class static ArrayList<Device> blackFriday(ArrayList<Device> obj) {
         String brand;
         if(brand = "Apple") {
 
